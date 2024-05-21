@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cython = "*"
+peewee = "*"
+more-itertools = "*"
+django = "*"
+easydev = "*"
+drf-yasg = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+djangorestframework-simplejwt = "*"
+setuptools = "*"
+celery = "*"
+redis = "*"
+django-channels = "*"
+channels = "*"
+pip = "*"
+channels-redis = "*"
+daphne = "*"
+exrex = "*"
+sympy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+# python_full_version = "3.11.7"
